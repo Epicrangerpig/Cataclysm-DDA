@@ -2397,5 +2397,28 @@
       [ [ "water_clean", 25 ] ],
       [ [ "steel_chunk", 25 ], [ "scrap", 50 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "laptop_working",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "computer",
+    "skills_required": [ "electronics", 4 ],
+    "difficulty": 6,
+    "time": "120 m",
+	"book_learn": [ [ "textbook_electronics", 2 ], [ "textbook_robots", 2 ] ],
+	"autolearn": [ [ "computer", 4 ] ],
+	"using": [ [ "soldering_standard", 50 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
+    "components": [
+	  [ [ "laptop", 1 ] ],
+      [ [ "processor", 1 ] ],
+	  [ [ "wire", 2 ] ],
+      [ [ "RAM", 2 ] ],
+	  [ [ "e_scrap", 2 ] ],
+	  [ [ "power_supply", 1 ] ],
+	  [ [ "large_lcd_screen", 1 ] ]
+    ]
   }
 ]
